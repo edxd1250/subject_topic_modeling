@@ -18,21 +18,21 @@ Scripts:
 - generate_topics.py: Script for topic_modeling via BERTopic.
 - generate within_between: Script for creating cosine_similarity matrix comparing articles within topics to each other and articles between topics to eachother.
 
-**Tools**
+**Tools:** Miscellaneous tools with various uses
 Scripts:
-- addzerostoname.py:
-- calculatena.py
-- cleancsv.py
-- combineembeddingdocs.py
-- combinetsv.py
-- comparetopics.py
-- genheatmaptest.py
-- groupby.py
-- savetopN.py
-- savetopNdata.py
-- saveYear.py
-- script_8_1_impact_topic.ipynb
-- splittsv.py
-- topicsimilarity_full.py
-- topicsimilarity.py
-- writeslurmscripts.py
+- addzerostoname.py: adds leading zero to file names
+- calculatena.py: can be used after generate_embeddings.py to get count of articles removed due to NA's
+- cleancsv.py: deprecated
+- combineembeddingdocs.py: used to combine embedding matricies into one matrix, and clean files into one file.
+- combinetsv.py: used to combine tsv files into one file
+- comparetopics.py: deprecated
+- genheatmaptest.py: deprecated
+- groupby.py: Used to group entire corpus by journal
+- savetopN.py: deprecated
+- savetopNdata.py: used for splitting pubmed corpus into subsets based on SJR journal rank
+- saveYear.py: used for subsetting a specific year of journals
+- script_8_1_impact_topic.ipynb: used for combining journal SJR rank with pubmed database
+- splittsv.py: used for splitting a tsv file into partitions.
+- topicsimilarity_full.py: deprecated
+- topicsimilarity.py: deprecated
+- writeslurmscripts.py: deprecated
